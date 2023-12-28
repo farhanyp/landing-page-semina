@@ -9,8 +9,8 @@ import { toast } from 'react-toastify';
 export default function FormSignin() {
   const router = useRouter();
   const [form, setForm] = useState({
-    email: 'farhan.yudha2016we@gmail.com',
-    password: 'rahasia',
+    email: '',
+    password: '',
   });
 
   const handleChange = (e) => {
